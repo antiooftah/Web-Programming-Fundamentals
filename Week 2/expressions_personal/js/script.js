@@ -33,4 +33,4 @@ currentMonth[12] = 12; //Dec
 var monthlySaving = Math.abs((totalCost-alreadySaved) / (weddingMonth[5]-currentMonth[9]));
 
 
-
+console.log("The amount I need to save each month is $" + monthlySaving);
