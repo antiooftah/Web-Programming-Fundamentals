@@ -8,6 +8,10 @@ if(beerCurrent == ""){
  alert("Please input a number")
  result = prompt("How much beer do you have in your fridge?");
 };
+if(guestCount == ""){
+ alert("Please input a number")
+ result = prompt("How many guests are you expecting?");
+};
 
 if (beerCurrent <= 3){ //This condition is true if the beer in the fridge is less than or equal to 3
 	console.log("Go get more! You'll drink that all yourself!"); //this prints out if the condition is true
