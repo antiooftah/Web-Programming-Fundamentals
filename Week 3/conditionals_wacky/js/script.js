@@ -4,6 +4,11 @@ var beerCurrent = prompt("How much beer do you have in your fridge?"); //This wi
 var guestCount = prompt("How many guests are you expecting?"); //This will ask how many guests are coming
 var beerEach = 3; //This is the average beer drank per person
 
+if(beerCurrent == ""){
+ alert("Please input a number")
+ result = prompt("How much beer do you have in your fridge?");
+};
+
 if (beerCurrent <= 3){ //This condition is true if the beer in the fridge is less than or equal to 3
 	console.log("Go get more! You'll drink that all yourself!"); //this prints out if the condition is true
 }else if(guestCount >= 6){ //this says if the first condition is false skip the code and ask if this condition is true
