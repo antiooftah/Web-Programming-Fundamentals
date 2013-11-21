@@ -11,3 +11,5 @@ function showCalc(episodes,seasons,episodeCost,seasonCost){ //creates a function
 	var eachEpisode = seasons*episodes*episodeCost; //creates a variable and calculates the total price for the episodes all together
 	console.log("It will cost you $" + eachEpisode + " to buy each episode individually or $" + eachTotal + " to buy the season."); //this prints out the totals
 }
+
+showCalc(episodeEachSeason,seasonEachSeries,singleShow,fullSeason); //call the function and places the variables into the perameters of the function.
