@@ -12,3 +12,5 @@ function marginsCalc(retailPrice, distributorPrice, margin){ //This is a functio
 	var retailMarkup = retailP * margin + retailP; //This calculates the retail margins
 	console.log("Your retail price is $" + retailMarkup + " and your distributor price is going to be $" + distMarkup); //Prints the output to the console
 };
+
+marginsCalc(retail,distributor,marginPercent); //calls the function and places the variables into the parameters
