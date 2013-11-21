@@ -11,3 +11,5 @@ function tvCalc (energyBill,cableBill){ //the function for the TV calculator and
 	console.log(dailyTotal);
 	var totalCost = (dailyTotal >= 11) || (dailyTotal <= 10) ? console.log("You are spending " + dailyTotal +" per day, that's a lot.") : console.log("You are spending " + dailyTotal +" per day, you're not addicted."); //ternery that prints out to the console
 };
+
+tvCalc(energyBill,cableBill); //calls the function and places the global variables into the parameters of the function
